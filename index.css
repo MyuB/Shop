@@ -1,0 +1,188 @@
+* {
+    box-sizing: border-box;
+  }
+
+  @font-face {
+    font-family: ;
+    src: url();
+  }
+  
+  body {
+    margin: 0;
+    min-width: 992px;
+    font-family: "Helvetica";
+  }
+  
+  #navbar{
+    height: 60px;
+  }
+  
+  #navbar .logo{
+    height: 60px;
+    padding-left: 30px; 
+    line-height: 60px;
+    float: left;
+  }
+  
+  #navbar .logo img{
+    vertical-align: middle;
+  }
+  
+  #navbar .nav{
+    font-size: 13px;
+    text-decoration: none;
+    float: right;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #navbar .nav li{
+    float: left;
+  }
+  
+  #navbar .nav li:last-child{
+    padding-right: 30px;
+  }
+  
+  #navbar .nav li a{
+    margin-left: 30px;
+    line-height: 60px;
+    color: black;
+    text-decoration: none;
+  }
+
+  #main_image{
+    background-image: url("../ShoppingMall/images/bg.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 250px;
+    text-align: center;
+    margin-bottom: 60px;
+
+  }
+
+  #products{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #products h2{
+    text-align: center;
+    font-size: 24px;
+    color:dimgray;
+    margin-bottom: 60px;
+  }
+
+  #products_wrapper div{
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;   
+  }
+
+  #covernat{
+    text-align: center;
+    margin-right: 50px;
+  }
+
+  #uniform{
+    text-align: center;
+  }
+
+  #contact{
+    width: 735px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #contact h2{
+    text-align: center;
+    font-size: 24px;
+    color: dimgray;
+    margin-bottom: 60px;
+  }
+
+  #contact_wrapper{
+  }
+
+  #contact_container{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    height: 350px;
+    line-height: 50px;
+  }
+
+
+  #login h2{
+    text-align: center;
+    font-size: 24px;
+    color: dimgray;
+    margin-bottom: 60px;
+  }
+
+
+  #login_container{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  #login_container .login_container_id_input{
+    margin-bottom: 30px;
+    width: 450px;
+    height: 50px;
+  }
+
+  #login_container .login_container_pw_input{
+    margin-bottom: 30px;
+    width: 450px;
+    height: 50px;
+  }
+
+  #login_container .login_container_submit_btn{
+    margin-bottom: 15px;
+    background-color: #666666;
+    color: white;
+    padding: 10px 20px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: white solid 1px;
+    cursor: pointer; 
+    width: 450px;
+    height: 50px;
+  }
+
+  #login_container .login_container_submit_btn:hover{
+    background-color: black;
+  }
+
+  #register{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border: grey solid 1px;
+  }
+
+  #register a, input{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  #footer{
+    text-align: center;
+    margin-bottom: 80px;
+    clear: both;
+    margin-top: 160px;
+  }
+  
+  #footer a{
+    text-decoration: none;
+    margin-right: 20px;
+  }
